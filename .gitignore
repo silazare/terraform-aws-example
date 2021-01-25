@@ -1,0 +1,15 @@
+terraform.json
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+.terraform
+.terraform-debug
+tmp
+*.svg
+backend.config
+.DS_Store
+.aws_secrets
+Gopkg.lock
+vendor
+.test-data
