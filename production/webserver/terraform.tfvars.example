@@ -1,7 +1,9 @@
 vpc_remote_state_bucket = "<S3 bucket for VPC state>"
 vpc_remote_state_key    = "production/vpc/terraform.tfstate"
 vpc_remote_state_region = "eu-west-1"
+vpc_dynamodb_table      = "<DynamoDB table name for VPC state lock>"
 
 db_remote_state_bucket = "<S3 bucket for DB state>"
 db_remote_state_key    = "production/database/terraform.tfstate"
 db_remote_state_region = "eu-west-1"
+db_dynamodb_table      = "<DynamoDB table name for DB state lock>"
