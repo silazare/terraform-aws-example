@@ -1,0 +1,2 @@
+bucket_name = "<S3 bucket name for remote backend>"
+table_name  = "<DynamoDB table name for remote backend>"
