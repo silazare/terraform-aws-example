@@ -1,15 +1,37 @@
-terraform.json
-terraform.tfvars
-terraform.tfstate
-terraform.tfstate.backup
-.terraform.tfstate.lock.info
-.terraform
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Debug files
 .terraform-debug
-tmp
-*.svg
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files
+*.tfvars
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Backend configs
 backend.config
-.DS_Store
+
+# AWS secrets
 .aws_secrets
+
+# Other temporary files
+.DS_Store
+*tmp*
+*.svg
+
+# Go files
 Gopkg.lock
 vendor
 .test-data

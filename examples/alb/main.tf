@@ -1,5 +1,5 @@
 // ALB module test example to deploy in default VPC
-module "alb_test" {
+module "alb_example" {
   source = "../../modules/alb"
 
   alb_name   = var.alb_name

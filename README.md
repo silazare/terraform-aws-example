@@ -2,6 +2,16 @@
 
 Prerequisites:
 * terraform >= 0.13
+* tfsec >= v0.36.11 (for pre-commit usage)
+* tflint >= 0.23.0 (for pre-commit usage)
+* checkov >= 1.0.675 (for pre-commit usage)
+
+Pre-commit installation:
+```shell
+git secrets --install
+pre-commit install -f
+pre-commit run -a
+```
 
 Important notes:
 * For Production ready you should use separate AWS accounts for Staging and Production as well.

@@ -3,7 +3,7 @@ module "asg" {
 
   cluster_name  = "${var.cluster_name}-${var.environment}"
   ami           = var.ami
-  user_data     = data.template_file.user_data.rendered
+  user_data     = local.user_data
   instance_type = var.instance_type
 
   min_size           = var.min_size

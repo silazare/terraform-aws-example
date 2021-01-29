@@ -1,6 +1,6 @@
 plan_file=.terraform/plan.terraform
 
-.PHONY: init plan apply destroy list
+.PHONY: init plan apply destroy list output fmt
 
 init:
 	@rm -rf ./.terraform
@@ -23,4 +23,3 @@ output:
 
 fmt:
 	@terraform fmt
-

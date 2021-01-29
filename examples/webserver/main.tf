@@ -1,5 +1,5 @@
 // Webserver module test example to deploy in default VPC
-module "webserver" {
+module "webserver_example" {
   source = "../../modules/webserver"
 
   cluster_name = var.cluster_name
